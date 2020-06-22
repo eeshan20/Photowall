@@ -1,0 +1,68 @@
+.card {
+    height: 250px;
+    width: 250px;
+    padding-left: 15px;
+    margin-top: 3%;
+}
+
+.cardMedia {
+    height: 200px;
+}
+
+.deleteIcon {
+    margin-Left: 23%;
+    cursor: pointer;
+}
+
+.getIcon {
+    padding-left: 30%;
+    cursor: pointer;
+}
+
+/* .paper {
+    width: 1000px;
+	height: 600px;
+} */
+
+.modalImage {
+    width: 1350px;
+    height: 750px;
+}
+
+@media (max-width: 450px) {
+    .card{
+        height: 200px;
+        width: 280px;
+        padding-left: 0;
+    }
+
+    .cardMedia {
+        height: 150px;
+    }
+
+    .deleteIcon {
+        margin-Left: 22%
+    }
+    
+    .getIcon {
+        padding-left: 30%
+    }
+
+    /* .paper {
+        width: 200px;
+        height: 100px;
+    } */
+    
+    .modalImage {
+        width: 350px;
+        height: 200px;
+    }
+    
+}
+
+@media (max-width: 800px) and (min-width: 410px) {
+    .modalImage {
+        width: 700px;
+        height: 800px;
+    }
+}

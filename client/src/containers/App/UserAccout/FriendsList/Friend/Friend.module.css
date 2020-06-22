@@ -1,0 +1,101 @@
+.div{
+    -webkit-box-align: center;
+    /* margin: 8px 14px; */
+    
+    width: 100%;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(219, 219, 219);
+    flex-direction: row;
+    flex-shrink: 0;
+    padding: 8px 14px;
+}
+
+.link {
+    height: 70px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.user {
+    display: flex;
+    /* -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal; */
+    align-items: center;
+    flex-direction: row;
+    /* margin-right: 0; */
+    /* white-space: nowrap; */
+    width: 100%;
+    margin-top: 11px;
+}
+
+.name {
+        display: flex;
+    flex-direction: row;
+    color: black;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 22px;
+    width: 50%;
+    padding-right: 20px;
+}
+
+.imageDiv {
+    margin: 2px 32px 0 10px;
+    height: 38px;
+    width: 38px;
+}
+
+.image {
+    height: 45px;
+    position: absolute;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.outerButtonDiv {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.innerButtonDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.removeDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.remove {
+    background-color: whitesmoke;
+    color: black;
+    background: 0 0;
+    border: 0;
+    border-radius: 4px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 5px 9px;
+    text-align: center;
+    text-transform: inherit;
+    text-overflow: ellipsis;
+}

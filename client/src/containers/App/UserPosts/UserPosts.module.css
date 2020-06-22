@@ -1,0 +1,28 @@
+.mainDiv {
+    position: relative;
+    width: auto;
+    margin-left: 9px;
+    margin-right: 28px;
+    margin-bottom: 28px;
+}
+
+.link {
+    margin: 0;
+    padding: 0;
+}
+
+.div {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 293px;
+    height: 293px;
+    position: relative;
+    overflow: hidden;
+}
+
+.image {
+    height: 293px;
+    width: 265px;
+    position: absolute;
+}

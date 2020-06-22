@@ -1,0 +1,69 @@
+.container{
+    margin: 80px auto 0 auto;
+    /* max-width: 1200px; */
+}
+
+.loading {
+    margin-top: 52%;
+    margin-left: 48%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.h2Div {
+    border-bottom: 1px solid #dbdbdb;
+    height: 43px;
+}
+
+.h2 {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.backdrop {
+    display: flex;
+    flex-direction: column;
+}
+
+.outerDiv {
+    height: 257px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.likesArea {
+    height: 356px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+/*
+.inner {
+    height: 356px;
+    overflow: hidden auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.likesArea {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3300px; 
+    padding-top: 0px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+} */
